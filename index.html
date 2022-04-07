@@ -5,35 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./shopping-cart.png" type="image/x-icon">
-  <link rel="stylesheet" href="main.css" type="text/css"> 
+  <link rel="stylesheet" href="./main.css" type="text/css"> 
   <title>Lista de la compra</title>
 </head>
-<header>Lista de la compra</header>
 
 <body>
-  <main>
-    <section>
-      <div>2/3 comprados</div>
-      <div>
-        <button type="button"> + </button> </div>
-    </section>
-    <section>
+  <section>
+  <header>
+    <h1>Lista de la compra</h1>
+    <nav aria-label="primary-navigation">
       <ul>
-
         <li>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label>
+          <a>Principal</a> 
         </li>
         <li>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label>
+            <a>Lista</a>
         </li>
         <li>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label>
+            <a href="./formulario.html">Acerca de</a>
+        </li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section class="main-top">
+      <div class="count-comprados">2/3 comprados</div>
+      <div class="button-image">
+        <button type="button"> + </button> 
+      </div>
+    </section>
+    <section class="main-section">
+      <ul>
+        <li>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Pan</label>
+        </li>
+        <li>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Azúcar</label>
+        </li>
+        <li>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Leche</label>
         </li>
       </ul>
-      <br>
-      <div>1.95€</div>
+      <ul>
+        <li>0.74€</li>
+        <li> </li>
+        <li>1.20€</li>
+      </ul>
+      
     </section>
+    <br>
+      <div>1.95€</div>
   </main>
-  
 </body>
 </html>

@@ -1,0 +1,50 @@
+body {
+  margin: 50px auto;/* This is for the box to center in the middle of the page.*/
+  width: 450px;
+  min-height: 900px;
+  border:0.1px;/* border: 1px solid #000;* As our background is black, the border is not necessary*/
+  font-family: Arial;
+  padding: 18px; /*distance of the buttons inside the box to the border*/
+}
+
+header {
+  display: flex;
+  max-width: 500px;
+  min-height: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(64, 98, 201);
+}
+
+section.main-top {
+  background-color: rgb(190, 69, 24);
+  flex: 1;
+}
+.main-section {
+  display: flex;
+  flex: 2;
+  background-color: orange;
+  justify-content: space-around;
+}
+.count-comprados {
+  text-align: right;
+  padding-right: 10px;
+}
+.button-image{
+  color: coral;
+}
+
+ul {
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  height: 100px;
+  padding: 0;
+  align-items: end;
+  margin-bottom: 25px;
+}
+nav > ul > li {
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
