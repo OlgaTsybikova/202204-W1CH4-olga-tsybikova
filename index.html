@@ -8,35 +8,24 @@
   <link rel="stylesheet" href="./main.css" type="text/css"> 
   <title>Lista de la compra</title>
 </head>
-
 <body>
-  <div class="site-container">
-  <section>
+  <div class="lista">
   <header>
-    <h1>Lista de la compra</h1>
-    <nav aria-label="primary-navigation">
-      <ul>
-        <li>
-          <a>Principal</a> 
-        </li>
-        <li>
+    <h1 class="lista__heading">Lista de la compra</h1>
+    <nav class="lista__menu">
+            <a>Principal</a>
             <a>Lista</a>
-        </li>
-        <li>
             <a href="./formulario.html">Acerca de</a>
-        </li>
-    </ul>
-  </nav>
-</header>
-  <main>
-    <section class="main-top">
-      <div class="count-comprados">2/3 comprados</div>
-      <div class="button-image">
-        <button type="button"> + </button> 
+    </nav>
+  </header>
+  <section class="lista__add">
+      <div class="lista__add__text">
+          <p>2/3 comprados</p>
       </div>
-    </section>
-    <section class="main-section">
-      <ul>
+        <button type="button" class="lista__add__button"> + </button> 
+  </section>
+  <section class="lista__main">
+      <ul class="lista__main__left">
         <li>
           <label><input type="checkbox" id="cbox1" value="first_checkbox"> Pan</label>
         </li>
@@ -45,18 +34,29 @@
         </li>
         <li>
           <label><input type="checkbox" id="cbox1" value="first_checkbox"> Leche</label>
+          
         </li>
       </ul>
-      <ul>
-        <li>0.74€</li>
-        <li> </li>
-        <li>1.20€</li>
+      <ul class="lista__main__right">
+        <li>
+        <p>0.74€ </p> 
+        <img src="./outline_highlight_off_black_24dp.png" class="material-icons-outlined"> 
+        </li>
+        <li>
+        <p>0 </p>
+        <img src="./outline_highlight_off_black_24dp.png" class="material-icons-outlined"> 
+        </li>
+        <li>
+          <p>1.20€ x</p>
+        <img src="./outline_highlight_off_black_24dp.png" class="material-icons-outlined"> 
+        </li>
       </ul>
-      
-    </section>
+  </section>
     <br>
-      <div>1.95€</div>
-  </main>
+  <div>1.95€</div>
 </div>
 </body>
+<footer>
+
+</footer>
 </html>
