@@ -16,6 +16,7 @@
   font-size: 1.5rem;
   margin-left: 10px;
   margin-top: 30px;
+
 }
 
 .lista__menu {
@@ -58,11 +59,10 @@ header {
 ul.lista__main__left, ul.lista__main__right {
   justify-content: space-between;
   list-style-type: none;
+  margin: 0;
   padding: 0;
   height: 100px;
   padding: 0;
   align-items: end;
   margin-bottom: 25px;
 }
-
-
